@@ -13,7 +13,7 @@ export const Video = ({ infoVideo }) => {
                 <h3 className='video_titulo'>{titulo}</h3>
                 <p> {descripcion} </p>
             </a>
-            <LikeButton />
+            <LikeButton videoCode={id}/>
         </div>
     )
 }

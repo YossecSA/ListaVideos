@@ -1,0 +1,31 @@
+.input_container{
+    display: flex;
+}
+input[type='text'] {
+    flex: 1; 
+    border: none; 
+    outline: none; 
+    padding: 10px; 
+    font-size: 16px;
+    background-color: transparent;
+    color: rgba(35, 39, 47, 0.7);
+}
+.input_container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e1e4; 
+    border-radius: 50px; 
+    overflow: hidden;
+    background-color: #EBECF0;
+}
+
+.container_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container_icon i{
+    font-size: 18px;
+    color: rgb(174, 180, 194);
+}

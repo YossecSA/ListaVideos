@@ -17,5 +17,5 @@ export const LikeButton = ({ videoCode }) => {
 }
 
 function Icon({ estado }) {
-    return estado ? <i className='bx bxs-heart bx-burst color'></i>: <i className='bx bx-heart'></i>;
+    return estado ? <i className='bx bxs-heart color' ></i>: <i className='bx bx-heart'></i>;
 }
